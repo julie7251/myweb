@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>러너블</title>
+    <link rel="icon" href="images/파비.JPG" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="css/style.css">
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+ 
+</head>
+<body>
+    <header>
+        <div class="hd-logo"><a href="#"><img src="images/logo_runable_w.png" alt="헤드로고"></a></div>
+        <nav>
+            <ul class="hd-menu">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="service.html">서비스 소개</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <main>
+      <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="images/main1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/main2.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/main3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/main4.jpg" alt=""></div>
+
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
+  
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+
+        <h3>언제 어디서나 즐겁게<br>
+        <span>러너블과 즐겁게 달릴 수 있도록</span></h3>
+        <!-- <div class="main-btns">
+          <a href="#" class="btns-active"><img src="images/ic_apple.png" alt="">App Store</a>
+          <a href="#" class="btns-active"><img src="images/ic_google-play.png" alt="">Google Store</a>
+        </div> -->
+
+    </main>
+    <footer>
+        <p>
+            러너블 주식회사 RUNABLE CO.,Ltd <br>
+사업자 등록번호 : 360-81-02326 | 대표자 : 류영호 <br>
+통신판매 신고번호 : 2021-서울마포-4171 <br>
+서울특별시 마포구 상암산로 48-6 
+        </p>
+       
+
+
+
+<ul class="ft-menu">
+    <li><a href="bt1.html" target="_blank>서비스 이용약관</a></li>
+    <li><a href="#">개인정보 및 위치정보 처리 방침</a></li>
+    <li><a href="#">위치기반서비스 이용약관</a></li>
+    <li><a href="#">마케팅 이용동의 약관</a></li>
+</ul>
+    </footer>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+    </script>
+</body>
+</html>
