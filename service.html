@@ -7,6 +7,12 @@
     <!-- ===========================ico아니어도 적용됨?! -->
     <link rel="icon" href="images/파비.JPG" />
     <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="css/resposive.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+
 </head>
 <body>
     <header>
@@ -70,12 +76,34 @@
  
 
 
-    <ul class="img ser3-img">
+    <ul class="img ser3-img web">
         <li><img src="images/sect04_img01.png" alt="이미지1"></li>
         <li> <img src="images/sect04_img02.png" alt="이미지2"></li>
          <li><img src="images/sect04_img03.png" alt="이미지3"></li>
         <li> <img src="images/sect04_img04.png" alt="이미지4"></li>
     </ul>
+      <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="images/sect04_img01.png" alt=""></div>
+      <div class="swiper-slide"><img src="images/sect04_img02.png" alt=""></div>
+      <div class="swiper-slide"><img src="images/sect04_img03.png" alt=""></div>
+      <div class="swiper-slide"><img src="images/sect04_img04.png" alt=""></div>
+
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
+  
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
 </div><!-- ser3 끝 -->
 </div><!-- 서비스 컨테이너 끝 -->
 </main><!-- 메인 끝 -->
